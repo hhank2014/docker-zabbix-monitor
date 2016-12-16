@@ -17,9 +17,6 @@
         url = "http://192.168.1.66/zabbix/api_jsonrpc.php"
 	zabbix_user = "Admin"
 	zabbix_passwd = "zabbix"
-	
-	auth = Auth(url, header, zabbix_user, zabbix_passwd)
-
 	mysql_user = "zabbix"
 	mysql_passwd = "zabbix"
 	mysql_db = "zabbix"
