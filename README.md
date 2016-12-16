@@ -14,6 +14,7 @@
    You should assign your zabbix db's (mysql) username,password and database.
 
    for example:
+
         url = "http://192.168.1.66/zabbix/api_jsonrpc.php"
 	zabbix_user = "Admin"
 	zabbix_passwd = "zabbix"
