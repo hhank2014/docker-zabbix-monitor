@@ -15,7 +15,7 @@
 
    for example:
 
-        url = "http://192.168.1.66/zabbix/api_jsonrpc.php"
+	url = "http://192.168.1.66/zabbix/api_jsonrpc.php"
 	zabbix_user = "Admin"
 	zabbix_passwd = "zabbix"
 	mysql_user = "zabbix"
