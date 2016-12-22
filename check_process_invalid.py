@@ -7,6 +7,10 @@ import urllib2
 import MySQLdb
 import commands
 
+#You should install MySQL-python
+#for example CentOS 
+#yum install -y MySQL-python
+
 def Auth(url, header, zabbix_user, zabbix_passwd):
 	
 	data = json.dumps(

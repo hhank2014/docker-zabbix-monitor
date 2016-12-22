@@ -1,11 +1,8 @@
 #!/usr/bin/python
 #Usage etcd key/value IP:PORT
 #
-import commands
 import urllib
-import etcd
 import sys
-import re
 
 def Getinfo(port):
 	GetCode = urllib.urlopen("http://localhost:" + port).getcode()
